@@ -1,0 +1,20 @@
+body{
+    border: 1px solid red;
+    font-size: 1em;
+    max-width: 1024px;
+    max-height: 1024px;
+    margin: 0px auto;
+}
+
+header article{
+    width: 17.0%;
+    display: inline-block;
+    padding: 8px 10px;
+    text-align: center;
+    margin-right: 0px;
+}
+
+header article nav ul li{
+    display: inline-block;
+    padding: 8px 10px;
+}
