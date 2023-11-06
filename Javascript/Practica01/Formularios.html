@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <title>1er Formulario</title>
+</head>
+<body>
+    <form action="Inicio.html" method="post">
+        <label for="">Nombre:</label>
+        <input type="text" name="Nombre">
+        <br>
+        <label for="">Email:</label>
+        <input type="email" name="Email" id="">
+        <br>
+        <label for="">Contraseña:</label>
+        <input type="password" name="password">
+        <br>
+        <label for="">Numero:</label>
+        <input type="number" value="10" name="Numero">
+        <br>
+        <p>Botones de radio</p>
+        <input type="radio" name="opcion1" id="" value="HTML">HTML
+        <input type="radio" name="opcion1" id="" value="CSS">CSS
+        <input type="radio" name="opcion1" id="" value="JS">JS
+        <br>
+        <input type="checkbox" name="Check1" id="Angular">Angular
+        <input type="checkbox" name="Check2" id="React">React
+        <input type="checkbox" name="Check3" id="VueJS">VueJS
+        <br>
+        <label for="">Subir Archivos:</label>
+        <input type="file" name="Subir archivo">
+        <br>
+        <label for="">Barra Busqueda</label>
+        <input type="search" name="Buscar algo">
+        <br>
+        <label for="">Busqueda de fechas</label>
+        <input type="date" value="2023-11-06">
+        <br>
+        <label for="">Fecha Larga</label>
+        <input type="datetime-local" name="Fecha Larga" id="" value="2023-11-06T12:46:00.00">
+        <br>
+        <input type="week" name="Semana">
+        <br>
+        <input type="month" name="Mes" id="">
+        <br>
+        <textarea name="texto" id="" cols="30" rows="10" placeholder="Ingresa tu mensaje aqui"></textarea>
+        <br>
+        <select name="Opciones" id="">
+            <option disabled selected hidden></option>
+            <option value="">HTML</option>
+            <option value="">CSS</option>
+            <option value="">JS</option>
+        </select>
+        <p></p> 
+        <input type="submit" name="envio" id="" value="Enviar">
+        <input type="reset" value="Limpiar">
+    </form>
+</body>
+</html>
